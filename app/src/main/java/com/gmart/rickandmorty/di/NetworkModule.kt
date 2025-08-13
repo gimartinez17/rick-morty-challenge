@@ -66,5 +66,5 @@ object NetworkModule {
 
     @Provides
     @Singleton
-    fun providesEndpoint(): String = "https://rickandmortyapi.com"
+    fun providesEndpoint(): String = "https://rickandmortyapi.com/api/"
 }
