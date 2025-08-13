@@ -28,6 +28,7 @@ class CharactersViewModel @Inject constructor(
         }
     }
 
+    /** Loads characters from the use case and updates [viewState] accordingly. */
     private fun loadCharacters() {
         viewModelScope.launch(dispatcher) {
             getCharactersUseCase.invoke().onStart {
