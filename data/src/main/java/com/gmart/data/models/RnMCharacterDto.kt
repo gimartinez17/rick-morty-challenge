@@ -7,6 +7,11 @@ data class RnMCharacterDto(
     val species: String,
     val gender: String,
     val image: String,
-    val origin: String,
+    val origin: OriginDto,
     val episode: List<String>,
+)
+
+data class OriginDto(
+    val name: String,
+    val url: String
 )
