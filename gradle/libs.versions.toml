@@ -1,5 +1,6 @@
 [versions]
 agp = "8.12.0"
+coilCompose = "2.7.0"
 converterGson = "3.0.0"
 daggerAndroid = "2.57"
 gson = "2.13.1"
@@ -24,6 +25,7 @@ retrofit = "3.0.0"
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coilCompose" }
 converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
 dagger-android = { module = "com.google.dagger:dagger-android", version.ref = "daggerAndroid" }
 gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
